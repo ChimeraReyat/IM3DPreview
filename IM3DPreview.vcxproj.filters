@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Pch.cpp" />
+    <ClCompile Include="DllMain.cpp" />
+    <ClCompile Include="im3d\im3d.cpp">
+      <Filter>Im3D</Filter>
+    </ClCompile>
+    <ClCompile Include="im3d\examples\DirectX11\im3d_directx11.cpp">
+      <Filter>Im3D</Filter>
+    </ClCompile>
+    <ClCompile Include="im3d\examples\common\im3d_example.cpp">
+      <Filter>Im3D</Filter>
+    </ClCompile>
+    <ClCompile Include="im3d\examples\common\imgui\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="im3d\examples\common\imgui\imgui_demo.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="im3d\examples\common\imgui\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="im3d\examples\common\imgui\imgui_widgets.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Im3D">
+      <UniqueIdentifier>{24f26882-c735-4ade-a55f-722553bbaa60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{a9392d2a-f437-4782-8723-53e8dfa81f17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
